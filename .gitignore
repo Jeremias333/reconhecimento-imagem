@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+#Arquivo de peso
+yolov3.weights
+
 # Distribution / packaging
 .Python
 build/
