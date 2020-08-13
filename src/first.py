@@ -2,7 +2,7 @@ import cv2
 
 carrega_algoritmo = cv2.CascadeClassifier("haarcascades/haarcascade_frontalface_default.xml")
 
-image = cv2.imread("fotos/eu.jpg")
+image = cv2.imread("fotos/rostoolhos.jpg")
 
 imagecinza = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
